@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbar__menu-logo">
           <img src={images.Rev1} alt="Logo" />
         </div>
-        <ul className="navbar__menu-link">
+        <ul className="navbar__menu-link flex justify-center">
           <li className="navbar__menu-link">
             <a href="#Learn">Learn</a>
           </li>

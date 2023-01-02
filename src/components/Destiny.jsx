@@ -5,7 +5,7 @@ import images from '../constants/images'
 function Destiny() {
   return (
     <div className="destiny">
-      <div className="destiny-main">
+      <div className="destiny-main flex">
         <div>
           <h2>Toward infinity and beyond</h2>
           <p>
