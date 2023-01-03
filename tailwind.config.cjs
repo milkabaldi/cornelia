@@ -6,8 +6,9 @@ module.exports = {
       colors: {
         primary: "#00040f",
         secondary: "#0B4141",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimWhite: "#fff",
+        dimBlue: "#0B4141",
+        dimPeach: '#FFCCBC',
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

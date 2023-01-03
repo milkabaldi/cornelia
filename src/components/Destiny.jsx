@@ -4,22 +4,24 @@ import images from '../constants/images'
 
 function Destiny() {
   return (
-    <div className="destiny">
-      <div className="destiny-main flex">
-        <div>
-          <h2>Toward infinity and beyond</h2>
-          <p>
+    <div className="destiny relative">
+      <div className="destiny-main h-screen flex justify-center items-center">
+        <div className='relative z-40'>
+          <h2 className='text-8xl text-center mb-5'>Toward infinity <br /> and beyond</h2>
+          <p className='text-2xl text-center mb-10'>
             Discover your new favourite mascot. With her, boost your imagination
             and decorate your workspace. May Cornelia accompany you in your
             daily life and in the most perilous missions you may encounter.
           </p>
-          <p>
+          <p className='text-2xl text-center mb-10'>
             With her, give yourself the means to succeed, believe in yourself
             and in your dreams!
-          </p>
-          <img src={images.UniCornelia} alt="Unicorns" />
+          </p>   
         </div>
-        <h2>Choose your destiny</h2>
+        <div className='absolute top-50 z-0'>
+            <img src={images.UniCornelia} alt="Unicorns" />
+        </div>
+        {/* <h2>Choose your destiny</h2>
         <p>
           Each unicorn has its own personality and symbolism. Get to know your
           new mascot and surround yourself with a strong ally. Thus choose the
@@ -29,7 +31,7 @@ function Destiny() {
           Cornelia : nothing will defeat you.
         </p>
         <button>Learn more about her story</button>
-        <img src={images.UnisShadow} alt="Unicorn Shadow" />
+        <img src={images.UnisShadow} alt="Unicorn Shadow" /> */}
       </div>
     </div>
   )
