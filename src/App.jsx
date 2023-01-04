@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Destiny, Navbar, Premium, Magic, Reviews, Detail, Unicorns, Footer, } from './components'
+import { About, Destiny, Navbar, Personality, Premium, Magic, Reviews, Detail, Unicorns, Footer, } from './components'
 import styles from './style.js'
 
 const App = () => {
@@ -19,6 +19,11 @@ const App = () => {
       <div className={`bg-dimPeach ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
           <Destiny />
+          </div>
+      </div>
+      <div className={`bg-dimBlue ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+          <Personality />
           </div>
       </div>
       <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>

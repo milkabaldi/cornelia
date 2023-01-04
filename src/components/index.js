@@ -2,6 +2,7 @@ import About from "./About";
 import Button from "./Button";
 import Destiny from "./Destiny";
 import Detail from "./Detail";
+import Personality from "./Personality";
 import Magic from "./Magic";
 import Navbar from "./Navbar";
 import Premium from "./Premium";
@@ -20,4 +21,5 @@ export  {
     Reviews,
     Unicorns,
     Footer,
+    Personality,
 };
