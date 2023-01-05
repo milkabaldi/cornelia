@@ -22,17 +22,29 @@ const App = () => {
           </div>
       </div>
       <div className={`bg-dimBlue ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
+          <div className={`relative ${styles.boxWidth}`}>
           <Personality />
           </div>
       </div>
       <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            
-
             <Premium />
-            <Magic />
-            <Reviews />
+          </div>
+      </div>
+      <div className={`bg-dimLightGrey relative h-screen ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+          <Magic />
+          </div>
+      </div>
+      <div className={`bg-gradient-to-b py-16 from-dimPeach to-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+          <Reviews />
+          </div>
+      </div>
+      <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+
+           
             <Detail />
             <Unicorns />
             <Footer />

@@ -7,19 +7,20 @@ function Reviews() {
     <Fragment>
       <section className="reviews">
         <div className="reviews__main">
-          <h2>They talk about it better than us</h2>
-          <div className="reviews__main-container">
-            <div className="reviews__main-container_block">
-              {data.people.map((item) => (
-                <>
-                  <p key={item.text}>{item.text}</p>
-
-                  <img key={item.face} src={item.face} alt="Reviews" />
-                  <span key={item.name}>{item.name}</span>
-                  <span key={item.position}>{item.position}</span>
-                </>
-              ))}
+          <h2 className='text-dimWhite text-7xl text-center'>They talk about it better than us</h2>
+          <div className="reviews__main-container grid grid-cols-3 gap-4">
+          {data.people.map((item) => (
+            <div className="reviews__main-container_block mb-6  rounded-lg bg-dimWhite p-5	">
+            
+              
+                  <p className='text-1xl mb-1 text-dimBlue' key={item.text}>{item.text}</p>
+                  <img className='w-12' key={item.face} src={item.face} alt="Reviews" />
+                  <span className='text-2xl mb-1 text-dimBlue' key={item.name}>{item.name}</span>
+                  <span className='text-2xl mb-1 text-dimBlue' key={item.position}>{item.position}</span>
+              
+              
             </div>
+            ))}
           </div>
         </div>
       </section>
