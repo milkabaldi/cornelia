@@ -1,5 +1,7 @@
 import React from 'react'
 import images from '../constants/images'
+import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+
 
 const About = () => {
   return (
