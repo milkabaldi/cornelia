@@ -12,17 +12,17 @@ const App = () => {
       </div>
 
       <div className={`bg-dimWhite ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
+          <div className={`${styles.boxWidth} max-ss:pt-4 px-4`}>
           <About />
           </div>
       </div>
       <div className={`bg-dimPeach ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
+          <div className={`${styles.boxWidth} max-ss:p-4`}>
           <Destiny />
           </div>
       </div>
       <div className={`bg-dimBlue ${styles.flexStart}`}>
-          <div className={`relative ${styles.boxWidth}`}>
+          <div className={`relative ${styles.boxWidth} p-4`}>
           <Personality />
           </div>
       </div>

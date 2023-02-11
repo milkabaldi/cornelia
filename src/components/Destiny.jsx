@@ -5,9 +5,10 @@ import images from '../constants/images'
 function Destiny() {
   return (
     <div className="destiny relative">
-      <div className="destiny-main h-screen flex justify-center items-center">
+      <div className="destiny-main h-screen flex justify-center items-center max-ss:h-full">
         <div className='relative z-40'>
-          <h2 className='text-8xl text-center mb-5'>Toward infinity <br /> and beyond</h2>
+          <h2 className='text-8xl text-center mb-5 max-ss:hidden'>Toward infinity <br /> and beyond</h2>
+          <h2 className='text-8xl text-center mb-5 hidden max-ss:text-6xl max-ss:block'>Toward infinity and beyond</h2>
           <p className='text-2xl text-center mb-10'>
             Discover your new favourite mascot. With her, boost your imagination
             and decorate your workspace. May Cornelia accompany you in your

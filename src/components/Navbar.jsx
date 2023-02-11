@@ -8,7 +8,7 @@ function Navbar() {
         <div className="navbar__menu-logo">
           <a href="#main" className='text-3xl text-dimBlue font-bold		hover:text-dimPeach transition-colors ease-in-out duration-300'>Cornelia</a>
         </div>
-        <ul className="navbar__menu-link flex">
+        <ul className="navbar__menu-link flex max-ss:hidden">
           <li className="navbar__menu-link mx-2 ">
             <a href="#Learn" className='text-dimBlue hover:text-dimPeach font-semibold	 transition-colors ease-in-out duration-300'>Learn</a>
           </li>

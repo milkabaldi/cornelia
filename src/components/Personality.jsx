@@ -4,8 +4,8 @@ import images from '../constants/images'
 
 const Personality = () => {
   return (
-    <div className="flex py-32 relative">
-      <div className="w-6/12">
+    <div className="flex flex-row py-32 relative max-ss:flex-col max-ss:py-4 max-ss:px-4">
+      <div className="w-6/12 max-ss:w-full">
         <h2 className="text-6xl mb-10 text-dimPeach bold">
           Choose <br /> your destiny
         </h2>
@@ -22,8 +22,8 @@ const Personality = () => {
         </button>
       </div>
 
-      <div className="w-6/12 absolute right-0 bottom-0">
-        <img className="max-w-3xl	" src={images.UnisShadow} alt="Unicorn Shadow" />
+      <div className="w-6/12 absolute right-0 bottom-0 max-ss:relative max-ss:w-ful">
+        <img className="max-w-3xl	max-ss:max-w-xs" src={images.UnisShadow} alt="Unicorn Shadow" />
       </div>
     </div>
   )

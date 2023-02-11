@@ -3,7 +3,7 @@ import images from '../constants/images'
 
 function Magic() {
   return (
-    <section className="magic pt-32">
+    <section className="magic pt-32 max-ss:pt-10">
       <div className="magic__main flex items-center justify-center flex-col	">
         <h2 className='text-6xl text-center mb-12 text-dimPeach'>Let the magic happen</h2>
         <p className='text-2xl text-center mb-12 text-dimBlue '>
