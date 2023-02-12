@@ -4,11 +4,11 @@ import images from '../constants/images'
 function Detail() {
   return (
     <div className="detail">
-      <div className="detail__main flex py-32 gap-1 justify-center items-center">
-        <div className='w-6/12'>
+      <div className="detail__main flex py-32 gap-1 justify-center items-center max-ss:flex-col max-ss:py-0">
+        <div className='w-6/12 max-ss:w-full'>
           <img src={images.UniCircles} alt="Detail" />
         </div>
-        <div className='w-6/12'>
+        <div className='w-6/12 max-ss:w-full'>
           <h2 className='text-6xl mb-10 text-dimBlue bold'>Each lesser detail matter</h2>
           <p className='text-2xl  mb-12 text-dimBlue '>
             Cornelia is an all-in-one tool that helps teams design every part of
