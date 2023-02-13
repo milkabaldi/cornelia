@@ -15,7 +15,7 @@ function Magic() {
           <b>Oh, and don't worry:</b> Cornelia feeds on your bad vibes, no need
           to give her water or grass !
         </p>
-        <img className='w-full absolute left-0 bottom-0' src={images.Unis} alt="Unicorns" />
+        <img className='w-full absolute left-0 bottom-0 max-md:relative' src={images.Unis} alt="Unicorns" />
       </div>
     </section>
   )

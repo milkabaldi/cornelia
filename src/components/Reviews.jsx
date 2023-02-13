@@ -8,7 +8,7 @@ function Reviews() {
       <section className="reviews">
         <div className="reviews__main">
           <h2 className='text-dimWhite text-7xl text-center mb-8'>They talk about it better than us</h2>
-          <div className="reviews__main-container grid grid-cols-3 gap-4 max-ss:grid-cols-1">
+          <div className="reviews__main-container grid grid-cols-3 gap-4 max-md:grid-cols-2 max-ss:grid-cols-1">
           {data.people.map((item) => (
             <div className="reviews__main-container_block mb-6  rounded-lg bg-dimWhite p-5	">
             

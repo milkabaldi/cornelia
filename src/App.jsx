@@ -31,7 +31,7 @@ const App = () => {
             <Premium />
           </div>
       </div>
-      <div className={`bg-dimLightGrey relative h-screen ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-dimLightGrey relative h-screen max-md:h-full ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
           <Magic />
           </div>
