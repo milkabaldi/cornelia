@@ -47,6 +47,10 @@ const App = () => {
            
             <Detail />
             <Unicorns />
+          </div>
+      </div>
+      <div className={`bg-dimBlue ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
             <Footer />
           </div>
       </div>
